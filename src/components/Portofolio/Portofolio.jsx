@@ -7,6 +7,7 @@ import IMG4 from "../../assets/Screenshot (130).png";
 import IMG5 from "../../assets/Screenshot (129).png";
 import IMG6 from '../../assets/Screenshot (127).png'
 import IMG7 from "../../assets/Screenshot (128).png";
+import IMG8 from "../../assets/Screenshot (166).png";
  
 const data = [
   {
@@ -15,13 +16,13 @@ const data = [
     title: "Amazon Clone",
     Githup: "https://github.com/Mahmoud-Habib55200/amazon-clone",
     demo: "https://amazon-clone-eosin-delta.vercel.app/"
-  } ,   {
-    id : 2,
-    image: IMG2,
-    title: "Gem",
-    Githup: "https://github.com/Mahmoud-Habib55200/myfirstdesign",
-    demo: "https://myfirstdesign-jade.vercel.app/"
   }, {
+    id: 2,
+    image: IMG8,
+    title: "Project with Bootstrap",
+    Githup: "https://github.com/Mahmoud-Habib55200/Online-Shop",
+    demo: "https://online-shop-jjc4.vercel.app/"
+  },  {
     id: 3,
     image: IMG6,
     title: "Ai",
@@ -51,6 +52,13 @@ const data = [
     title: "Project with Bootstrap",
     Githup: "https://github.com/Mahmoud-Habib55200/Website_Bootstrap",
     demo: "https://website-bootstrap-eta.vercel.app/"
+  }, 
+  {
+    id: 8,
+    image: IMG2,
+    title: "Gem",
+    Githup: "https://github.com/Mahmoud-Habib55200/myfirstdesign",
+    demo: "https://myfirstdesign-jade.vercel.app/"
   },
 ]
 
@@ -63,7 +71,7 @@ const Portofolio = () => {
         data-aos-offset="200"
         data-aos-delay="50"
         data-aos-duration="1000"
-        data-aos-easing="ease-in-out">Portofolio</h2>
+        data-aos-easing="ease-in-out">My Portofolio</h2>
 
       <div className="container portofolio__container">
      {
