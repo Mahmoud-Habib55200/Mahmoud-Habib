@@ -71,7 +71,7 @@ const Portofolio = () => {
         data-aos-offset="200"
         data-aos-delay="50"
         data-aos-duration="1000"
-        data-aos-easing="ease-in-out">My Portofolio</h2>
+        data-aos-easing="ease-in-out"> Portofolio</h2>
 
       <div className="container portofolio__container">
      {
